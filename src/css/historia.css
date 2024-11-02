@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#foto{
+    margin-left: 50px;
+    width: 180px;
+    height: 110px;
+}
+#hamburguer{
+    color:white;
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+#nav{
+    display:none;
+    text-align: center;
+
+}
+#nav ul li a{
+    color:white;
+    display: flex;
+    align-items: end;
+    list-style-type: none;
+}
+#foto1{
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+#fontehistoria{
+    display: flex;
+    width: 555px;
+    height: 150px;
+    margin-left: 450px;
+}
+.historias{
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 110px;
+
+}
+.topicos{
+    border-radius: 25px;
+    p {
+        font-size: 18px;
+        font-family: Montserrat,Arial, Helvetica, sans-serif;;
+    }
+}
+#div1{
+    background-color: #77416D;
+    padding: 10px;
+}
+#div2{
+    background-color: #FFD54C;
+    padding: 10px;
+}
+#div3{
+    background-color: #E71500;
+    padding: 10px;
+}
+#div4{
+    background-color: #E2A643;
+    padding: 10px;
+}
+#div5{
+    background-color: #11A8FD;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    align-content: center;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
