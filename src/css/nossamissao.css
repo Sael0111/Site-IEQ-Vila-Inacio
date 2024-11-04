@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#foto{
+    margin-left: 50px;
+    width: 180px;
+    height: 110px;
+}
+#hamburguer{
+    color:white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+    margin: 20px;
+}
+#nav{
+    display:none;
+    text-align: center;
+}
+#nav ul li a{
+    color:white;
+    display: flex;
+    align-items: end;
+    list-style-type: none;
+    text-decoration: none;
+}
+.conteudo{
+background-color: #692273;
+height: 1200px;
+}
+.img1{
+    height: 900px;
+    width: 100%;
+}
+.paragrafo{
+    font-size: 18px;
+    font-family: Montserrat,Arial, Helvetica, sans-serif ;
+    color:white;
+    width: 900px;
+    margin: 25px;
+    margin-left: 270px;
+}
+footer{
+    padding-top: 20px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    align-content: center;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}

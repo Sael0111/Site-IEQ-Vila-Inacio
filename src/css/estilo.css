@@ -17,19 +17,21 @@ header{
 #hamburguer{
     color:white;
     display: flex;
+    justify-content: end;
+    align-items: end;
     text-align: center;
     margin: 20px;
 }
 #nav{
     display:none;
     text-align: center;
-
 }
 #nav ul li a{
     color:white;
     display: flex;
     align-items: end;
     list-style-type: none;
+    text-decoration: none;
 }
 #foto1{
     width: 100%;
@@ -160,4 +162,8 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
