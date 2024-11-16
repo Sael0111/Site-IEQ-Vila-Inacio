@@ -74,7 +74,7 @@ header{
         transform: translate(-50%, -50%);
         font-size:24px;
         z-index: 1;
-        margin-left: 400px;
+        margin-left: 460px;
         padding-bottom: 900px;
         width: 500px;
         color:white
@@ -82,13 +82,21 @@ header{
 }
 #cremos{
     width: 900px;
-    margin-left: 90px;
+    margin-left: 150px;
+}
+#btncremosemque{
+    margin-left: 300px;
+    margin-bottom: 20px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    bottom: 200px;
 }
 .btnsaibamais{
     background: linear-gradient(45deg,#feeaa1, #772c12);
   width: 200px;
   height: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-bottom: 20px;
   border-radius: 100px;
   display: flex;
@@ -131,7 +139,7 @@ header{
     margin-left: 30px;
     margin-bottom:30px ;
 }
-#doutrina{
+#btndoutrina{
     background: #004E93;
 }
 .missao{
@@ -165,5 +173,47 @@ footer{
     a{
         text-decoration: none;
         color: white;
+    }
+}
+/*Responsividade Mobile*/
+@media (max-width:500px){
+    #fontehistoria{
+        height: 100px;
+        width: 450px;
+        margin: 0;
+    }
+    .fotohistoria{
+        height: 300px;
+        width: 470px;
+    }
+    #cremosemque{
+        p{
+            width: 250px;
+            height: 100px;
+            margin-top: 150px;
+            margin-left: 170px;
+            font-size: 15px;
+        }
+    }
+    #cremos{
+        width: 500px;
+        height: 390px;
+        margin-left: 0;
+    }
+    .btnsaibamais{
+        width: 150px;
+        font-size: 15px;
+    }
+    #btncremosemque{
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+    #fotodoutrina{
+        height: 250px;
+        width: 470px;
+        margin-left: 0;
+    }
+    .missao{
+        height: 620px;
     }
 }
