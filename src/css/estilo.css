@@ -179,12 +179,12 @@ footer{
 @media (max-width:500px){
     #fontehistoria{
         height: 100px;
-        width: 450px;
+        width: 445px;
         margin: 0;
     }
     .fotohistoria{
         height: 300px;
-        width: 470px;
+        width: 445px;
     }
     #cremosemque{
         p{
@@ -208,9 +208,15 @@ footer{
         margin-top: 250px;
         margin-left: 150px;
     }
+    .doutrina{
+        height: 700px;
+    }
+    #paragrafodoutrina{
+        height: 350px;
+    }
     #fotodoutrina{
         height: 250px;
-        width: 470px;
+        width: 445px;
         margin-left: 0;
     }
     .missao{
